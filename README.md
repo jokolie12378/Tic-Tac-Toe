@@ -1,23 +1,31 @@
 # Tic-Tac-Toe
 C++ Program
 
-A console-based, two-player Tic Tac Toe game built with C++. Players X and O take turns entering positions on a 3x3 grid until one wins by lining up three in a row or the game ends in a draw. The game’s logic is organized with classes for clean and maintainable code.
+Overview:
+This is a simple Tic-Tac-Toe game implemented in C++. The game is designed for two players to 
+take turns and play on a 3x3 grid. The players alternate between 'X' and 'O', trying to be the 
+first to get three of their marks in a row, either horizontally, vertically, or diagonally. 
+The game is played entirely in the console, and the current state of the board is 
+displayed after each move.
 
-**Overview**
-This C++ program provides a straightforward Tic Tac Toe game with a simple text interface. The game features player turn tracking, win and draw detection, and move validation to ensure smooth gameplay.
+Currently, the game supports two-player gameplay, but I am actively working on implementing an 
+AI opponent so players can compete against the computer.
 
-**Features**
-Interactive Gameplay: Players X and O take turns entering their moves.
-Automatic Win/Draw Detection: Recognizes and announces the game outcome.
-Modular Design: Uses a TicTacToe class to handle game logic.
-Clear Console Output: Displays the current game board after each move.
+Features:
+Two-player gameplay: Players take turns marking cells with 'X' or 'O'.
+Grid display: The game board is displayed after each move.
+Win condition check: The game checks for a winner after each move.
+Input validation: Ensures that players select valid positions on the board
 
-**How to Play**
-Start: The game begins with Player X.
-Turn-Based Play: Players enter numbers (1-9) corresponding to the grid positions to place their marks.
-Win or Draw: The game checks after each turn for a winner or a draw.
+How to Play
+1. Compile the program using a C++ compiler.
+2. Run the compiled program.
+3. Players will be prompted to enter a position on the 3x3 grid (1-9) to place their mark (either 'X' or 'O').
+4. After each move, the updated board will be displayed.
+5. The game will automatically check for a winner and declare the result once a player wins or the game ends in a draw.
 
-**Code Structure**
-main.cpp: Starts the game and manages player turns.
-TicTacToe.h: Header file defining the TicTacToe class.
-TicTacToe.cpp: Contains the implementation for game logic, including move validation, board updates, and win/draw checks.
+Future Plans:
+AI Opponent: Work is in progress to add a computer opponent, allowing players to play against the AI. 
+The AI will be designed to make strategic moves based on the current state of the board.
+Difficulty Levels: I plan to implement multiple difficulty levels for the AI, such as easy, medium, 
+and hard, to offer varying challenges to players.
