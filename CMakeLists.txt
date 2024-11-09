@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Tic_Tac_Toe
-        game.cpp
-        game.h
-        main.cpp)
+        Game/game.cpp
+        Game/game.h
+        Game/main.cpp)
